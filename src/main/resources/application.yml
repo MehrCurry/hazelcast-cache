@@ -1,0 +1,17 @@
+# Pretty-print JSON responses
+spring:
+  jackson:
+    serialization:
+      indent_output: true
+
+hazelcast:
+  phone:
+    home:
+      enabled: false
+
+logging:
+  level:
+    de:
+      gzockoll: DEBUG
+
+
